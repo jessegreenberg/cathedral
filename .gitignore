@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist/
+dist-webpack/
+build/
+
+ModulifiedImageMap.ts
+ModulifiedSoundMap.ts

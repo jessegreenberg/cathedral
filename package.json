@@ -1,0 +1,21 @@
+{
+  "name": "cathedral",
+  "version": "1.0.0",
+  "description": "TO SETUP:\r -",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack --watch",
+    "lint": "eslint . --ext .ts -c ./eslint/.eslintrc --ignore-path ./eslint/.eslintignore --rulesdir ./eslint/rules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "8.22.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^4.9.5",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
