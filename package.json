@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx webpack --watch",
+    "build": "npx webpack",
     "lint": "eslint . --ext .ts -c ./eslint/.eslintrc --ignore-path ./eslint/.eslintignore --rulesdir ./eslint/rules"
   },
   "author": "",
