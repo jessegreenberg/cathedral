@@ -17,7 +17,7 @@ Begin by cloning the repository to your local machine.
 Run npm install to install the necessary dependencies.
 
 3) Shell Environment:
-Ensure you have a Bash shell installed. We recommend Git Bash for this purpose.
+Ensure you have a Bash shell installed. On Windows I use Git Bash.
 
 4) Artwork Encoding:
 The project uses base64 encoded artwork for efficient packaging. To encode the artwork, execute the following commands:
@@ -42,4 +42,4 @@ Open your browser and navigate to the server's address to view the project.
 
 ## Dependencies and Libraries
 
-Cathedral utilizes [SceneryStack](https://github.com/scenerystack), a collection of libraries from PhET Interactive Simulations, designed for creating multimodal web applications. The project primarily leverages Scenery, particularly its CanvasNode, to efficiently animate visuals with high performance.
+Cathedral utilizes [SceneryStack](https://github.com/scenerystack), a collection of libraries from PhET Interactive Simulations, designed for creating multimodal web applications. The project primarily leverages Scenery and its CanvasNode to efficiently animate visuals with high performance.
