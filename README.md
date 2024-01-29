@@ -10,14 +10,11 @@ You can play with Cathedral at https://jessegreenberg.github.io/cathedral/.
 
 To set up and run this project on your local machine, follow these steps:
 
-1) Clone the Repository:
-Begin by cloning the repository to your local machine.
+1) Begin by cloning the repository to your local machine.
 
-2) Install Dependencies:
-Run npm install to install the necessary dependencies.
+2) Run `npm install` to install the necessary dependencies.
 
-3) Shell Environment:
-Ensure you have a Bash shell installed. On Windows I use Git Bash.
+3) Ensure you have a Bash shell installed. On Windows I use Git Bash.
 
 4) Artwork Encoding:
 The project uses base64 encoded artwork for efficient packaging. To encode the artwork, execute the following commands:
@@ -28,17 +25,13 @@ cd tools
 ```
 This process generates ModulifiedImageMap.ts and ModulifiedSoundMap.ts in the /js directory.
 
-5) Build the project.
-Run `npm run build` to build the project.
+5) Run `npm run build` to build the project.
 
-5) Local Server:
-Download and set up a local server like [http-server](https://www.npmjs.com/package/http-server) to host the files.
+5) Download and set up a local server like [http-server](https://www.npmjs.com/package/http-server) to host the files.
 
-6) Launch the Server:
-Run the server in the root directory of the repository.
+6) Run the server in the root directory of the repository.
 
-7) Access the Project:
-Open your browser and navigate to the server's address to view the project.
+7) Open your browser and navigate to the server's address to view the project.
 
 ## Dependencies and Libraries
 
